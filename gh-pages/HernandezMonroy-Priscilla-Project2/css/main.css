@@ -1,0 +1,41 @@
+body {
+	font-family: Arial, Verdana, sans-serif;
+	border: 2px solid #000000;
+	background-color:#ffffff;
+}
+
+/*--body style--*/ 
+
+h1,h2,h3 {
+	color: rgb(0, 51, 153);
+
+}
+
+p 	{
+	color:	#0099ff;
+}
+
+strong	{
+	color:	#000000;
+}
+
+em {
+	color:	#000000; 
+}
+
+ul	{
+	color:	rgb(0, 51, 153);
+
+}
+
+ol	{
+	color:  #cc0000; 
+
+}
+
+b	{
+	color:  #cc0000;
+}
+
+/*--font styles and color--*/
+
