@@ -1,14 +1,31 @@
+/*--css--*/
+
+/*body style--*/
+
 body {
 	font-family: Arial, Verdana, sans-serif;
-	border: 2px solid #000000;
+	border: 3px solid #000000;
 	background-color:#ffffff;
+	width:100%;
+	max-width:1200px;
+	height:100%;
+	margin:0 auto;
+	padding:0;
+	font-size:1em;
 }
 
 /*--body style--*/ 
 
-h1,h2,h3 {
-	color: rgb(0, 51, 153);
 
+/*--font color--*/
+
+h1 {
+	color: rgb(0, 51, 153);
+	text-align: center;
+}
+
+h2,h3 {
+	color: rgb(0, 51, 153);
 }
 
 p 	{
@@ -37,5 +54,59 @@ b	{
 	color:  #cc0000;
 }
 
-/*--font styles and color--*/
+/*--font color--*/
 
+
+/*--list styles--*/
+
+ul {
+	list-style-type: none;
+	text-align: center;
+	width: 500px;
+	border-top: 3px solid #ff9900;
+	border-bottom: 3px solid #ff9900;
+	padding: 14px;
+	margin: 0 auto; 
+}
+
+li {
+	padding: 5px;
+	margin: 3px;
+}
+
+/*--List styles--*/
+
+
+/*--link style--*/
+
+a  {
+	color: #0066cc;
+	font-weight: normal;
+	text-decoration: none;
+	padding: 3px;
+	margin: 2px;
+}
+
+a:hover {
+	color: #cc0000;
+	font-weight: bold;
+	text-decoration: underline;
+	cursor: auto;
+	padding: 3px;
+	margin: 2px;
+}
+
+/*--link style--*/
+
+
+
+/*footer style--*/
+
+#footer {
+	border: 6px solid  #ff9900;
+	background-color: #d9d9d9;
+	padding: 20px;	
+	text-align: center;
+}
+
+/*footer style--*/
