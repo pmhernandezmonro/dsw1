@@ -3,8 +3,10 @@
 /*body style--*/
 
 body {
-	font-family: Arial, Verdana, sans-serif;
-	border: 3px solid #000000;
+	font-family: 'Merriweather Sans', sans-serif;
+	border: 4px solid #000000;
+	border-radius: 8px;
+	box-shadow: 3px 3px 16px 7px #808080;
 	background-color:#ffffff;
 	width:100%;
 	max-width:1200px;
@@ -22,11 +24,19 @@ body {
 h1 {
 	color: rgb(0, 51, 153);
 	text-align: center;
+	text-shadow: 2px 2px #000000;
 }
 
 h2,h3 {
 	color: rgb(0, 51, 153);
+	text-shadow: 1px 1px #000000;
 }
+
+
+p.small {
+    line-height: 150%;
+}
+
 
 p 	{
 	color:	#0099ff;
@@ -63,10 +73,14 @@ ul {
 	list-style-type: none;
 	text-align: center;
 	width: 500px;
-	border-top: 3px solid #ff9900;
-	border-bottom: 3px solid #ff9900;
+	border-top: 4px solid #ff9900;
+	border-bottom: 4px solid #ff9900;
 	padding: 14px;
 	margin: 0 auto; 
+}
+
+ol.b {
+    list-style-type: square;
 }
 
 li {
@@ -87,8 +101,17 @@ a  {
 	margin: 2px;
 }
 
-a:hover {
-	color: #cc0000;
+a:link {
+	color: #0099ff;
+	font-weight: bold;
+	text-decoration: none;
+	cursor: auto;
+	padding: 3px;
+	margin: 2px;
+}
+
+a:visited {
+	color: #808080;
 	font-weight: bold;
 	text-decoration: underline;
 	cursor: auto;
@@ -96,7 +119,26 @@ a:hover {
 	margin: 2px;
 }
 
-/*--link style--*/
+a:hover {
+	color:  #ff9933;
+	font-weight: bold;
+	text-decoration: underline;
+	cursor: auto;
+	padding: 3px;
+	margin: 2px;
+}
+
+a:active { 
+	color: #99b3ff;
+	font-weight: bold;
+	text-decoration: none;
+	cursor: auto;
+	padding: 3px;
+	margin: 2px;
+}
+
+
+/*--link styles--*/
 
 
 
@@ -104,7 +146,8 @@ a:hover {
 
 #footer {
 	border: 6px solid  #ff9900;
-	background-color: #d9d9d9;
+	background-color: #e6e6e6;
+	border-radius: 8px 13px;
 	padding: 20px;	
 	text-align: center;
 }
