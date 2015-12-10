@@ -1,10 +1,10 @@
-http://pmhernandezmonro.github.io/dsw1/gh-pages/HernandezMonroy-Priscilla-Project2/
+http://pmhernandezmonro.github.io/dsw1/gh-pages/HernandezMonroy-Priscilla-Project3/
 
 
 
-https://github.com/pmhernandezmonro/dsw1/blob/gh-pages/gh-pages/HernandezMonroy-Priscilla-Project2/css/main.css
+https://github.com/pmhernandezmonro/dsw1/blob/gh-pages/gh-pages/HernandezMonroy-Priscilla-Project3/css/main.css
 
 
 
-https://github.com/pmhernandezmonro/dsw1/blob/gh-pages/gh-pages/HernandezMonroy-Priscilla-Project2/index.html
+https://github.com/pmhernandezmonro/dsw1/blob/gh-pages/gh-pages/HernandezMonroy-Priscilla-Project3/index.html
 

@@ -166,7 +166,7 @@ a:active {
 	float: left;
 	padding: 15px; 
 	margin: 10px;
-	clear: none;
+	clear: both;
 }
 
 .column3of3 {
