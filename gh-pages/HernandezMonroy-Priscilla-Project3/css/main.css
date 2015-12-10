@@ -9,11 +9,17 @@ body {
 	box-shadow: 3px 3px 16px 7px #808080;
 	background-color:#ffffff;
 	width:100%;
-	max-width:1200px;
 	height:100%;
+	max-width:1200%;
 	margin:0 auto;
 	padding:0;
-	font-size:1em;
+	font-size:1.000em;
+}
+
+body {
+	background-image: url("../images/foxtail.png"); 
+	background-repeat: repeat-x,y;
+	background-position: 100%;
 }
 
 /*--body style--*/ 
@@ -23,12 +29,14 @@ body {
 
 h1 {
 	color: rgb(0, 51, 153);
+	font size: 1.5em;
 	text-align: center;
 	text-shadow: 2px 2px #000000;
 }
 
 h2,h3 {
 	color: rgb(0, 51, 153);
+	font-size: 1.33em;
 	text-shadow: 1px 1px #000000;
 }
 
@@ -73,7 +81,7 @@ b	{
 ul {
 	list-style-type: none;
 	text-align: center;
-	width: 500px;
+	width: 25%;
 	border-top: 4px solid #ff9900;
 	border-bottom: 4px solid #ff9900;
 	padding: 14px;
@@ -92,7 +100,7 @@ ol.b {
 
 li {
 	padding: 5px;
-	margin: 3px;
+	margin: 3%;
 }
 
 
@@ -107,7 +115,7 @@ a  {
 	font-weight: normal;
 	text-decoration: none;
 	padding: 3px;
-	margin: 2px;
+	margin: 15%;
 }
 
 a:link {
@@ -116,7 +124,7 @@ a:link {
 	text-decoration: none;
 	cursor: auto;
 	padding: 3px;
-	margin: 2px;
+	margin: 10%;
 }
 
 a:visited {
@@ -125,7 +133,7 @@ a:visited {
 	text-decoration: underline;
 	cursor: auto;
 	padding: 3px;
-	margin: 2px;
+	margin: 10%;
 }
 
 a:hover {
@@ -135,7 +143,7 @@ a:hover {
 	text-decoration: underline;
 	cursor: auto;
 	padding: 3px;
-	margin: 2px;
+	margin: 10%;
 }
 
 a:active { 
@@ -144,7 +152,7 @@ a:active {
 	text-decoration: none;
 	cursor: auto;
 	padding: 3px;
-	margin: 2px;
+	margin: 10%;
 }
 
 
@@ -154,27 +162,30 @@ a:active {
 /*--column styles--*/
 
 .column1of3 { 
-	width: 600px;
+	width: 50%;
 	float: left;
 	padding: 15px; 
-	margin: 10px;
-	clear: right;
+	margin: 10%;
+	clear: both;
+	overflow: hidden;
 } 
 
 .column2of3 { 
-	width: 500px;
+	width: 50%;
 	float: left;
 	padding: 15px; 
-	margin: 10px;
-	clear: both;
+	margin: 7%;
+	clear: right;
+	overflow: hidden;
 }
 
 .column3of3 {
-	width: 300px;
+	width: 40%;
 	float: right;
 	padding: 15px; 
-	margin: 10px;
+	margin: 5%;
 	clear: both;
+	overflow: hidden;
 }
 
 
