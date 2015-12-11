@@ -27,6 +27,14 @@ body {
 	background-position: left center;
 }
 
+#footer {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#feffff+0,ddf1f9+35,a0d8ef+100;Blue+3D+%2318 */
+	background: #feffff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #feffff 0%, #ddf1f9 35%, #a0d8ef 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #feffff 0%,#ddf1f9 35%,#a0d8ef 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #feffff 0%,#ddf1f9 35%,#a0d8ef 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ /* IE6-9 */
+}
+
 /*--body style--*/ 
 
 
@@ -176,8 +184,8 @@ a:active {
 } 
 
 .column2of3 { 
-	width: 50%;
-	float: left;
+	width: 70%;
+	float: right;
 	padding: 15px; 
 	margin: 7%;
 	clear: right;
@@ -201,10 +209,12 @@ a:active {
 /*footer style--*/
 
 #footer {
-	background-color: #e6e6e6;
-	width: 30%;
+	width: 40%;
+	height: 10%;
 	padding: 10px;	
 	text-align: center;
+	float: left;
+	clear: right;
 }
 
 /*footer style--*/
