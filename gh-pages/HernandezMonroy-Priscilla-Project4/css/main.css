@@ -230,7 +230,7 @@ table {
 }
 		
 				
-	th, td {
+th, td {
 		font-size: .9em;
 		margin: 0;
 		border: 2px solid #ffffff;
@@ -243,20 +243,84 @@ table {
 }	
 	
 
-	tr.county {
+tr.county {
 		background-color: #F1F8FE;
 }
 		
-	tr:hover {
+tr:hover {
 		background-color: #ff9933;	
 }	
 	
 
-	.population {
+.population {
 		text-align: right;	
 }	
 
 /*--table--*/
+
+
+/*--form--*/
+	
+fieldset {
+	width: 47%;
+	margin: 20px 0 0 0;
+	border: 1px solid #2d3738;
+	border-radius: 5px;
+	background-color: #F1F8FE;
+	float: left;
+	clear: left;
+}
+		
+legend {
+	background-color: #01579B;
+	border: 1px solid #dcdcdc;
+	border-radius: 5px;
+	padding: 10px;
+	text-transform: uppercase;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 1em;
+	color: rgb(255,255,255);
+}
+	
+
+#submit input {
+	border: 1px solid #01579B;
+	padding: 5px;
+	margin: 10px;
+	border-radius: 5px;	
+	width: 10%;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: .9em;
+}	
+	
+
+.box {
+	margin: 10px 0 0 0;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: .9em;
+}
+		
+.title {
+	float: left;
+	width: 100px;
+	text-align: right;
+	padding-right: 10px;
+	clear: left;
+}
+	
+
+input:hover, input:focus {
+	background-color: #F78402;
+}
+	
+
+textarea:hover, input:focus {
+	background-color: #F78402;	
+}			
+
+/*--form--*/
+
+
 
 
 /*footer style--*/
@@ -266,7 +330,7 @@ table {
 	height: 150px;
 	padding: 10px;	
 	text-align: center;
-	clear: right;
+	clear: left;
 
 }
 
@@ -275,3 +339,6 @@ table {
 
 
 /*footer style--*/
+
+
+/*--end--*/
