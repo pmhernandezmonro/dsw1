@@ -1,0 +1,277 @@
+/*--css--*/
+
+/*body style--*/
+
+body {
+	font-family: 'Merriweather Sans', sans-serif;
+	border: 4px solid #000000;
+	border-radius: 3%;
+	box-shadow: 20% #808080;
+	background-color:#ffffff;
+	width:85%;
+	height:50%;
+	margin:0 auto;
+	padding: .6% 5%;
+	font-size:1.000em;
+}
+/*--1000 px for width--*/  
+
+
+body {
+	background-image: url("../images/foxtail.png"); 
+	background-repeat: repeat;
+	background-position: 50%;
+}
+
+.header {
+	background-image: url("../images/1449814170_New-York-Flag.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+
+}
+
+#footer {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#feffff+0,ddf1f9+35,a0d8ef+100;Blue+3D+%2318 */
+	background: #feffff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #feffff 0%, #ddf1f9 35%, #a0d8ef 100%);
+	 /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #feffff 0%,#ddf1f9 35%,#a0d8ef 100%); 
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #feffff 0%,#ddf1f9 35%,#a0d8ef 100%); 
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ /* IE6-9 */
+}
+
+/*--body style--*/ 
+
+
+/*--font color--*/
+
+h1 {
+	color: rgb(0, 51, 153);
+	font size: 1.33em;
+	text-align: center;
+	text-shadow: 2px 2px #000000;
+}
+
+h2,h3 {
+	color: rgb(0, 51, 153);
+	font-size: 1.33em;
+	text-shadow: 1px 1px #000000;
+}
+
+
+p.small {
+    line-height: 150%;
+}
+
+
+p 	{
+	color:	#0099ff;
+}
+
+strong	{
+	color:	#000000;
+}
+
+em {
+	color:	#000000; 
+}
+
+ul	{
+	color:	rgb(0, 51, 153);
+
+}
+
+ol	{
+	color:  #cc0000; 
+	display: block; 
+
+}
+
+b	{
+	color:  #cc0000;
+}
+
+/*--font color--*/
+
+
+/*--list styles--*/
+
+ul {
+	list-style-type: none;
+	text-align: center;
+	width: 25%;
+	border-top: 4px solid #ff9900;
+	border-bottom: 4px solid #ff9900;
+	padding: 14px;
+	margin: 0 auto; 
+	clear: left;
+}
+
+ol {
+	text-align: left;
+}
+
+
+ol.b {
+    list-style-type: square;
+}
+
+li {
+	padding: 5px;
+	margin: 3%;
+}
+
+
+
+/*--List styles--*/
+
+
+/*--link style--*/
+
+a  {
+	color: #0066cc;
+	font-weight: normal;
+	text-decoration: none;
+	padding: 3px;
+	margin: 15%;
+}
+
+a:link {
+	color: #0099ff;
+	font-weight: bold;
+	text-decoration: none;
+	cursor: auto;
+	padding: 3px;
+	margin: 10%;
+}
+
+a:visited {
+	color: #808080;
+	font-weight: bold;
+	text-decoration: underline;
+	cursor: auto;
+	padding: 3px;
+	margin: 10%;
+}
+
+a:hover {
+	color:  #ff9933;
+	opacity: 0.6 0.6;
+	font-weight: bold;
+	text-decoration: underline;
+	cursor: auto;
+	padding: 3px;
+	margin: 10%;
+}
+
+a:active { 
+	color: #99b3ff;
+	font-weight: bold;
+	text-decoration: none;
+	cursor: auto;
+	padding: 3px;
+	margin: 10%;
+}
+
+
+/*--link styles--*/
+
+
+/*--column styles--*/
+
+.column1of3 { 
+	width: 600px;
+	float: left;
+	padding: 5px; 
+	margin: 20px;
+	overflow: hidden;
+} 
+/*--600 px for width
+	20 px for margin --*/  
+
+.column2of3 { 
+	width: 200px;
+	float: right;
+	padding: 15px; 
+	margin: 20px;
+	overflow: hidden;
+}
+/*--700 px for width
+	20 px for margin--*/
+
+.column3of3 {
+	width: 500px;
+	float: right;
+	padding: 15px; 
+	margin: 20px;
+	overflow: hidden;
+}
+/*--500 px for width
+	20 px for margin --*/  
+
+
+/*--column styles--*/
+
+
+
+
+/*--Table--*/
+
+
+table {
+		border: 2px solid #01579B;
+		float: left;
+		width: 100%;
+		margin-bottom: 10%;
+		background-color: #fffff;
+		letter-spacing: .02em;
+		clear: left;
+}
+		
+				
+	th, td {
+		font-size: .9em;
+		margin: 0;
+		border: 2px solid #ffffff;
+		text-shadow: 2px 2px 2px #ffffff;
+		padding: 5px 10px;
+		font-family: 'Merriweather Sans', sans-serif;
+		line-height: 1.5em;
+		border-spacing: 2px;
+		text-align: left;
+}	
+	
+
+	tr.county {
+		background-color: #F1F8FE;
+}
+		
+	tr:hover {
+		background-color: #ff9933;	
+}	
+	
+
+	.population {
+		text-align: right;	
+}	
+
+/*--table--*/
+
+
+/*footer style--*/
+
+#footer {
+	width: 500px;
+	height: 150px;
+	padding: 10px;	
+	text-align: center;
+	clear: right;
+
+}
+
+/*--500 px for width
+	150 px for height --*/  
+
+
+/*footer style--*/
